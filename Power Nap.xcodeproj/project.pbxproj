@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DADB84FF1587CB54006E6753 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADB84FE1587CB54006E6753 /* UIKit.framework */; };
+		DADB85011587CB54006E6753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADB85001587CB54006E6753 /* Foundation.framework */; };
+		DADB85031587CB54006E6753 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADB85021587CB54006E6753 /* CoreGraphics.framework */; };
+		DADB85091587CB54006E6753 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DADB85071587CB54006E6753 /* InfoPlist.strings */; };
+		DADB850B1587CB54006E6753 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DADB850A1587CB54006E6753 /* main.m */; };
+		DADB850F1587CB54006E6753 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DADB850E1587CB54006E6753 /* AppDelegate.m */; };
+		DADB85121587CB54006E6753 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADB85101587CB54006E6753 /* MainStoryboard.storyboard */; };
+		DADB85151587CB54006E6753 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADB85141587CB54006E6753 /* MainViewController.m */; };
+		DADB85181587CB54006E6753 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADB85171587CB54006E6753 /* FlipsideViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DADB84FA1587CB54006E6753 /* Power Nap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Power Nap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADB84FE1587CB54006E6753 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DADB85001587CB54006E6753 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DADB85021587CB54006E6753 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DADB85061587CB54006E6753 /* Power Nap-Info.plist */ = {isa = PBXFileReference; path = "Power Nap-Info.plist"; sourceTree = "<group>"; };
+		DADB85081587CB54006E6753 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DADB850A1587CB54006E6753 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DADB850C1587CB54006E6753 /* Power Nap-Prefix.pch */ = {isa = PBXFileReference; path = "Power Nap-Prefix.pch"; sourceTree = "<group>"; };
+		DADB850D1587CB54006E6753 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DADB850E1587CB54006E6753 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DADB85111587CB54006E6753 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DADB85131587CB54006E6753 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		DADB85141587CB54006E6753 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DADB85161587CB54006E6753 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		DADB85171587CB54006E6753 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADB84F71587CB54006E6753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADB84FF1587CB54006E6753 /* UIKit.framework in Frameworks */,
+				DADB85011587CB54006E6753 /* Foundation.framework in Frameworks */,
+				DADB85031587CB54006E6753 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DADB84EF1587CB53006E6753 = {
+			isa = PBXGroup;
+			children = (
+				DADB85041587CB54006E6753 /* Power Nap */,
+				DADB84FD1587CB54006E6753 /* Frameworks */,
+				DADB84FB1587CB54006E6753 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DADB84FB1587CB54006E6753 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADB84FA1587CB54006E6753 /* Power Nap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADB84FD1587CB54006E6753 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DADB84FE1587CB54006E6753 /* UIKit.framework */,
+				DADB85001587CB54006E6753 /* Foundation.framework */,
+				DADB85021587CB54006E6753 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DADB85041587CB54006E6753 /* Power Nap */ = {
+			isa = PBXGroup;
+			children = (
+				DADB850D1587CB54006E6753 /* AppDelegate.h */,
+				DADB850E1587CB54006E6753 /* AppDelegate.m */,
+				DADB85101587CB54006E6753 /* MainStoryboard.storyboard */,
+				DADB85131587CB54006E6753 /* MainViewController.h */,
+				DADB85141587CB54006E6753 /* MainViewController.m */,
+				DADB85161587CB54006E6753 /* FlipsideViewController.h */,
+				DADB85171587CB54006E6753 /* FlipsideViewController.m */,
+				DADB85051587CB54006E6753 /* Supporting Files */,
+			);
+			path = "Power Nap";
+			sourceTree = "<group>";
+		};
+		DADB85051587CB54006E6753 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DADB85061587CB54006E6753 /* Power Nap-Info.plist */,
+				DADB85071587CB54006E6753 /* InfoPlist.strings */,
+				DADB850A1587CB54006E6753 /* main.m */,
+				DADB850C1587CB54006E6753 /* Power Nap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADB84F91587CB54006E6753 /* Power Nap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADB851B1587CB54006E6753 /* Build configuration list for PBXNativeTarget "Power Nap" */;
+			buildPhases = (
+				DADB84F61587CB54006E6753 /* Sources */,
+				DADB84F71587CB54006E6753 /* Frameworks */,
+				DADB84F81587CB54006E6753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Power Nap";
+			productName = "Power Nap";
+			productReference = DADB84FA1587CB54006E6753 /* Power Nap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADB84F11587CB53006E6753 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DADB84F41587CB53006E6753 /* Build configuration list for PBXProject "Power Nap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DADB84EF1587CB53006E6753;
+			productRefGroup = DADB84FB1587CB54006E6753 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADB84F91587CB54006E6753 /* Power Nap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADB84F81587CB54006E6753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADB85091587CB54006E6753 /* InfoPlist.strings in Resources */,
+				DADB85121587CB54006E6753 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADB84F61587CB54006E6753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADB850B1587CB54006E6753 /* main.m in Sources */,
+				DADB850F1587CB54006E6753 /* AppDelegate.m in Sources */,
+				DADB85151587CB54006E6753 /* MainViewController.m in Sources */,
+				DADB85181587CB54006E6753 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DADB85071587CB54006E6753 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADB85081587CB54006E6753 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DADB85101587CB54006E6753 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADB85111587CB54006E6753 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DADB85191587CB54006E6753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DADB851A1587CB54006E6753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADB851C1587CB54006E6753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Power Nap/Power Nap-Prefix.pch";
+				INFOPLIST_FILE = "Power Nap/Power Nap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DADB851D1587CB54006E6753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Power Nap/Power Nap-Prefix.pch";
+				INFOPLIST_FILE = "Power Nap/Power Nap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADB84F41587CB53006E6753 /* Build configuration list for PBXProject "Power Nap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADB85191587CB54006E6753 /* Debug */,
+				DADB851A1587CB54006E6753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADB851B1587CB54006E6753 /* Build configuration list for PBXNativeTarget "Power Nap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADB851C1587CB54006E6753 /* Debug */,
+				DADB851D1587CB54006E6753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DADB84F11587CB53006E6753 /* Project object */;
+}
