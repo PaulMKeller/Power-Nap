@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA295253158D3EBD00984E7E /* LaunchImageBumpMap.png in Resources */ = {isa = PBXBuildFile; fileRef = DA295252158D3EBD00984E7E /* LaunchImageBumpMap.png */; };
+		DA295258158D3FDA00984E7E /* BackgroundBumpMap.png in Resources */ = {isa = PBXBuildFile; fileRef = DA295256158D3FDA00984E7E /* BackgroundBumpMap.png */; };
+		DA400950158E2F8A008B0DEC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA40094F158E2F8A008B0DEC /* AVFoundation.framework */; };
+		DA400953158E321B008B0DEC /* Siren_Noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA400952158E321B008B0DEC /* Siren_Noise.mp3 */; };
+		DA40097C1593B455008B0DEC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA40097B1593B455008B0DEC /* StoreKit.framework */; };
+		DA4009801593B4D6008B0DEC /* InAppPurchaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA40097F1593B4D6008B0DEC /* InAppPurchaseManager.m */; };
+		DA4009861593B834008B0DEC /* SKProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4009851593B834008B0DEC /* SKProduct.m */; };
+		DA46DA571596E65D00AD6046 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DA46DA561596E65D00AD6046 /* LaunchImage.png */; };
+		DA46DA591596E66500AD6046 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DA46DA581596E66500AD6046 /* Default.png */; };
+		DA46DA5B1596FE1B00AD6046 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = DA46DA5A1596FE1B00AD6046 /* lock.png */; };
+		DA4A3AB5159648A800C753A0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA4A3AB4159648A800C753A0 /* Icon.png */; };
 		DADB84FF1587CB54006E6753 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADB84FE1587CB54006E6753 /* UIKit.framework */; };
 		DADB85011587CB54006E6753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADB85001587CB54006E6753 /* Foundation.framework */; };
 		DADB85031587CB54006E6753 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADB85021587CB54006E6753 /* CoreGraphics.framework */; };
@@ -16,24 +27,42 @@
 		DADB85121587CB54006E6753 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADB85101587CB54006E6753 /* MainStoryboard.storyboard */; };
 		DADB85151587CB54006E6753 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADB85141587CB54006E6753 /* MainViewController.m */; };
 		DADB85181587CB54006E6753 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADB85171587CB54006E6753 /* FlipsideViewController.m */; };
+		DADB851F1587CBDD006E6753 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADB851E1587CBDD006E6753 /* iAd.framework */; };
+		DAFCB115159640F100D604C3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAFCB114159640F100D604C3 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA295252158D3EBD00984E7E /* LaunchImageBumpMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImageBumpMap.png; sourceTree = "<group>"; };
+		DA295256158D3FDA00984E7E /* BackgroundBumpMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundBumpMap.png; sourceTree = "<group>"; };
+		DA40094F158E2F8A008B0DEC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DA400952158E321B008B0DEC /* Siren_Noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Siren_Noise.mp3; sourceTree = "<group>"; };
+		DA40095B158E411A008B0DEC /* PowerNapConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerNapConfig.h; sourceTree = "<group>"; };
+		DA40097B1593B455008B0DEC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DA40097E1593B4D6008B0DEC /* InAppPurchaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppPurchaseManager.h; sourceTree = "<group>"; };
+		DA40097F1593B4D6008B0DEC /* InAppPurchaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppPurchaseManager.m; sourceTree = "<group>"; };
+		DA4009841593B834008B0DEC /* SKProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKProduct.h; sourceTree = "<group>"; };
+		DA4009851593B834008B0DEC /* SKProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKProduct.m; sourceTree = "<group>"; };
+		DA46DA561596E65D00AD6046 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		DA46DA581596E66500AD6046 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DA46DA5A1596FE1B00AD6046 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		DA4A3AB4159648A800C753A0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		DADB84FA1587CB54006E6753 /* Power Nap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Power Nap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADB84FE1587CB54006E6753 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DADB85001587CB54006E6753 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DADB85021587CB54006E6753 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DADB85061587CB54006E6753 /* Power Nap-Info.plist */ = {isa = PBXFileReference; path = "Power Nap-Info.plist"; sourceTree = "<group>"; };
+		DADB85061587CB54006E6753 /* Power Nap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Power Nap-Info.plist"; sourceTree = "<group>"; };
 		DADB85081587CB54006E6753 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DADB850A1587CB54006E6753 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DADB850C1587CB54006E6753 /* Power Nap-Prefix.pch */ = {isa = PBXFileReference; path = "Power Nap-Prefix.pch"; sourceTree = "<group>"; };
-		DADB850D1587CB54006E6753 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DADB850C1587CB54006E6753 /* Power Nap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Power Nap-Prefix.pch"; sourceTree = "<group>"; };
+		DADB850D1587CB54006E6753 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DADB850E1587CB54006E6753 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DADB85111587CB54006E6753 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		DADB85131587CB54006E6753 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		DADB85131587CB54006E6753 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		DADB85141587CB54006E6753 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		DADB85161587CB54006E6753 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		DADB85161587CB54006E6753 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		DADB85171587CB54006E6753 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		DADB851E1587CBDD006E6753 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		DAFCB114159640F100D604C3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA40097C1593B455008B0DEC /* StoreKit.framework in Frameworks */,
+				DA400950158E2F8A008B0DEC /* AVFoundation.framework in Frameworks */,
+				DADB851F1587CBDD006E6753 /* iAd.framework in Frameworks */,
 				DADB84FF1587CB54006E6753 /* UIKit.framework in Frameworks */,
 				DADB85011587CB54006E6753 /* Foundation.framework in Frameworks */,
 				DADB85031587CB54006E6753 /* CoreGraphics.framework in Frameworks */,
@@ -50,9 +82,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA295255158D3EC500984E7E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DA46DA5A1596FE1B00AD6046 /* lock.png */,
+				DA46DA561596E65D00AD6046 /* LaunchImage.png */,
+				DAFCB114159640F100D604C3 /* Icon.png */,
+				DA295256158D3FDA00984E7E /* BackgroundBumpMap.png */,
+				DA295252158D3EBD00984E7E /* LaunchImageBumpMap.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DA400954158E3220008B0DEC /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DA400952158E321B008B0DEC /* Siren_Noise.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		DADB84EF1587CB53006E6753 = {
 			isa = PBXGroup;
 			children = (
+				DA46DA581596E66500AD6046 /* Default.png */,
+				DA4A3AB4159648A800C753A0 /* Icon.png */,
 				DADB85041587CB54006E6753 /* Power Nap */,
 				DADB84FD1587CB54006E6753 /* Frameworks */,
 				DADB84FB1587CB54006E6753 /* Products */,
@@ -70,6 +124,9 @@
 		DADB84FD1587CB54006E6753 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DA40097B1593B455008B0DEC /* StoreKit.framework */,
+				DA40094F158E2F8A008B0DEC /* AVFoundation.framework */,
+				DADB851E1587CBDD006E6753 /* iAd.framework */,
 				DADB84FE1587CB54006E6753 /* UIKit.framework */,
 				DADB85001587CB54006E6753 /* Foundation.framework */,
 				DADB85021587CB54006E6753 /* CoreGraphics.framework */,
@@ -87,7 +144,13 @@
 				DADB85141587CB54006E6753 /* MainViewController.m */,
 				DADB85161587CB54006E6753 /* FlipsideViewController.h */,
 				DADB85171587CB54006E6753 /* FlipsideViewController.m */,
+				DA40097E1593B4D6008B0DEC /* InAppPurchaseManager.h */,
+				DA40097F1593B4D6008B0DEC /* InAppPurchaseManager.m */,
+				DA4009841593B834008B0DEC /* SKProduct.h */,
+				DA4009851593B834008B0DEC /* SKProduct.m */,
 				DADB85051587CB54006E6753 /* Supporting Files */,
+				DA295255158D3EC500984E7E /* Images */,
+				DA400954158E3220008B0DEC /* Sounds */,
 			);
 			path = "Power Nap";
 			sourceTree = "<group>";
@@ -99,6 +162,7 @@
 				DADB85071587CB54006E6753 /* InfoPlist.strings */,
 				DADB850A1587CB54006E6753 /* main.m */,
 				DADB850C1587CB54006E6753 /* Power Nap-Prefix.pch */,
+				DA40095B158E411A008B0DEC /* PowerNapConfig.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,6 +219,14 @@
 			files = (
 				DADB85091587CB54006E6753 /* InfoPlist.strings in Resources */,
 				DADB85121587CB54006E6753 /* MainStoryboard.storyboard in Resources */,
+				DA295253158D3EBD00984E7E /* LaunchImageBumpMap.png in Resources */,
+				DA295258158D3FDA00984E7E /* BackgroundBumpMap.png in Resources */,
+				DA400953158E321B008B0DEC /* Siren_Noise.mp3 in Resources */,
+				DAFCB115159640F100D604C3 /* Icon.png in Resources */,
+				DA4A3AB5159648A800C753A0 /* Icon.png in Resources */,
+				DA46DA571596E65D00AD6046 /* LaunchImage.png in Resources */,
+				DA46DA591596E66500AD6046 /* Default.png in Resources */,
+				DA46DA5B1596FE1B00AD6046 /* lock.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +241,8 @@
 				DADB850F1587CB54006E6753 /* AppDelegate.m in Sources */,
 				DADB85151587CB54006E6753 /* MainViewController.m in Sources */,
 				DADB85181587CB54006E6753 /* FlipsideViewController.m in Sources */,
+				DA4009801593B4D6008B0DEC /* InAppPurchaseManager.m in Sources */,
+				DA4009861593B834008B0DEC /* SKProduct.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,10 +316,15 @@
 		DADB851C1587CB54006E6753 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Paul Keller (553KV9KF8W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Paul Keller (553KV9KF8W)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Power Nap/Power Nap-Prefix.pch";
 				INFOPLIST_FILE = "Power Nap/Power Nap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E98D1FAC-8CCC-40AA-8D20-48865A32F35A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E98D1FAC-8CCC-40AA-8D20-48865A32F35A";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -253,10 +332,15 @@
 		DADB851D1587CB54006E6753 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Paul Keller";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Paul Keller";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Power Nap/Power Nap-Prefix.pch";
 				INFOPLIST_FILE = "Power Nap/Power Nap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1952BB43-388A-4FD0-8E7D-D5C3AF62C0AE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1952BB43-388A-4FD0-8E7D-D5C3AF62C0AE";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -280,6 +364,7 @@
 				DADB851D1587CB54006E6753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

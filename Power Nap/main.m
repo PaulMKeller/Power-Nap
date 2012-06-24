@@ -3,7 +3,7 @@
 //  Power Nap
 //
 //  Created by Paul Keller on 12/06/2012.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Nutty Cake Games. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
