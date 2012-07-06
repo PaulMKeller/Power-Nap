@@ -25,5 +25,6 @@
 - (void)loadStore;
 - (BOOL)canMakePurchases;
 - (void)purchaseProUpgrade;
+- (void)restorePurchases;
 
 @end

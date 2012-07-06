@@ -73,9 +73,16 @@
 //
 - (void)purchaseProUpgrade
 {
-    //SKPayment *payment = [SKPayment paymentWithProductIdentifier:kInAppPurchaseProUpgradeProductId];
     SKPayment *payment = [SKPayment paymentWithProduct:proUpgradeProduct];
     [[SKPaymentQueue defaultQueue] addPayment:payment];
+}
+
+//
+// Restore Completed Purchases
+//
+- (void)restorePurchases
+{
+    [[SKPaymentQueue defaultQueue] restoreCompletedTransactions];   
 }
 
 #pragma -
@@ -104,16 +111,6 @@
         // enable the pro features
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"isProUpgradePurchased" ];
         [[NSUserDefaults standardUserDefaults] synchronize];
-        
-        //Enable the functionality
-//        _lockImageView.hidden = YES;
-//        _upgradeButton.hidden = YES;
-//        
-//        _dateTimePicker.hidden = NO;
-//        _adviceLabel.hidden = NO;
-//        _setPowerNapButton.hidden = NO;     
-        
-        
     }
 }
 

@@ -16,6 +16,7 @@
 @synthesize setPowerNapButton = _setPowerNapButton;
 @synthesize adviceLabel = _adviceLabel;
 @synthesize upgradeButton = _upgradeButton;
+@synthesize restoreButton = _restoreButton;
 
 - (void)didReceiveMemoryWarning
 {
@@ -40,6 +41,7 @@
     [self setSetPowerNapButton:nil];
     [self setAdviceLabel:nil];
     [self setUpgradeButton:nil];
+    [self setRestoreButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -73,7 +75,6 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    //return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
     if (interfaceOrientation == UIInterfaceOrientationPortrait) {
         return YES;
     } else {
@@ -119,6 +120,17 @@
     }
 }
 
+- (IBAction)restoreUpgrade:(id)sender {
+    AppDelegate *sharedDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    
+    if ([sharedDelegate.sharedInAppPurchaseManager canMakePurchases]) {
+        [sharedDelegate.sharedInAppPurchaseManager restorePurchases];
+    } else {
+        UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"No Purchase" message:@"You can not make purchases at this time." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alert show];
+    }
+}
+
 - (void)checkForUpgrade
 {
     NSUserDefaults * defaults  = [NSUserDefaults standardUserDefaults];
@@ -127,6 +139,7 @@
         //Enable the functionality
         _lockImageView.hidden = YES;
         _upgradeButton.hidden = YES;
+        _restoreButton.hidden = YES;
         
         _dateTimePicker.hidden = NO;
         _adviceLabel.hidden = NO;
@@ -136,12 +149,15 @@
 
 - (void)aNotificationHandler:(NSNotification*)notification  
 {  
+    
     _lockImageView.hidden = YES;
     _upgradeButton.hidden = YES;
+    _restoreButton.hidden = YES;
     
     _dateTimePicker.hidden = NO;
     _adviceLabel.hidden = NO;
     _setPowerNapButton.hidden = NO;
+        
 }  
 
 @end

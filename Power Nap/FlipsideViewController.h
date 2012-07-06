@@ -25,10 +25,12 @@
 @property (strong, nonatomic) IBOutlet UIButton *setPowerNapButton;
 @property (strong, nonatomic) IBOutlet UILabel *adviceLabel;
 @property (strong, nonatomic) IBOutlet UIButton *upgradeButton;
+@property (strong, nonatomic) IBOutlet UIButton *restoreButton;
 
 - (IBAction)done:(id)sender;
 - (IBAction)setOwnAlarm:(id)sender;
 - (IBAction)buyUpgrade:(id)sender;
+- (IBAction)restoreUpgrade:(id)sender;
 - (void)checkForUpgrade;
 
 

@@ -284,10 +284,10 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="E60-mp-o24">
-                                <rect key="frame" x="10" y="53" width="300" height="39"/>
+                                <rect key="frame" x="10" y="53" width="146" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="15"/>
-                                <state key="normal" title="Buy 'Set Your Own Alarm' Upgrade">
+                                <state key="normal" title="Buy Upgrade">
                                     <color key="titleColor" red="0.64285714289999996" green="0.01461038961" blue="0.01461038961" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -296,6 +296,21 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 </state>
                                 <connections>
                                     <action selector="buyUpgrade:" destination="6" eventType="touchUpInside" id="xRn-Ff-2ui"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Fpv-AU-yGS">
+                                <rect key="frame" x="164" y="53" width="146" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="15"/>
+                                <state key="normal" title="Restore Purchase">
+                                    <color key="titleColor" red="0.64285714289999996" green="0.01461038961" blue="0.01461038961" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="restoreUpgrade:" destination="6" eventType="touchUpInside" id="g88-WR-K2O"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="lock.png" id="sxv-Ey-HHZ">
@@ -310,6 +325,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <outlet property="dateTimePicker" destination="byo-jb-NWb" id="vxk-59-Zy6"/>
                         <outlet property="delegate" destination="2" id="15"/>
                         <outlet property="lockImageView" destination="sxv-Ey-HHZ" id="yRw-d4-p19"/>
+                        <outlet property="restoreButton" destination="Fpv-AU-yGS" id="L0l-yF-ceW"/>
                         <outlet property="setPowerNapButton" destination="Z83-19-o3s" id="jZd-XH-Ywj"/>
                         <outlet property="upgradeButton" destination="E60-mp-o24" id="vke-gS-dPI"/>
                     </connections>
@@ -329,11 +345,13 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             <relationships>
                 <relationship kind="action" name="buyUpgrade:"/>
                 <relationship kind="action" name="done:"/>
+                <relationship kind="action" name="restoreUpgrade:"/>
                 <relationship kind="action" name="setOwnAlarm:"/>
                 <relationship kind="outlet" name="adviceLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="dateTimePicker" candidateClass="UIDatePicker"/>
                 <relationship kind="outlet" name="delegate"/>
                 <relationship kind="outlet" name="lockImageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="restoreButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="setPowerNapButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="upgradeButton" candidateClass="UIButton"/>
             </relationships>
